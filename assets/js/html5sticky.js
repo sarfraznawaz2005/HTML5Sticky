@@ -57,7 +57,7 @@ html5sticky.addNote = function(){
     //$(stickynote).find('p').attr('contentEditable', true);
 
     // add utility buttons
-    html5sticky.addUtilityButtons(stickynote);
+    //html5sticky.addUtilityButtons(stickynote);
 
     // scroll to newly added sticky note
     $('html, body').animate({
@@ -333,7 +333,7 @@ html5sticky.getNotes = function(){
             $('.note_common p').css({height:(stickyheight - 60) + 'px', width:(stickywidth + 9) + 'px'});
 
             // add utility buttons
-            html5sticky.addUtilityButtons(stickynote);
+            //html5sticky.addUtilityButtons(stickynote);
 
          }
       }
