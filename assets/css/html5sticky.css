@@ -1,0 +1,289 @@
+/*
+*   HTML5STICKY v1.0.0
+*   Author: Sarfraz Ahmed (sarfraznawaz2005@gmail.com)
+*   Twitter: @sarfraznawaz
+*   Blog: http://sarfraznawaz.wordpress.com/
+*
+* */
+
+/* common styles start */
+h1{font-size:2em;}
+h2{font-size:1em;}
+a,a:visited{color:#fff;outline:none !important;text-decoration:none;}
+a img,a:visited img{border:none;}
+/* common styles end */
+
+
+body{background:url("../img/bg.png");color:#fff;padding:10px 30px 30px 30px;}
+
+#head h1{margin:0;padding:0;}
+#head nav{float:right;}
+#head nav li{display:inline;}
+
+#addnote{display:block;margin:20px;width:auto;float:left}
+#removenotes{display:block;margin:20px;width:auto;float:left}
+
+#main{margin:auto;padding-bottom:50px;}
+
+.left{float:left;}
+.right{float:right;}
+.clear{clear:both;}
+
+
+.note_common, .bignote, .editinfo{
+    padding:20px 10px 10px 10px;
+    color:#000;
+    float:left;
+    margin-right:20px;
+    margin-bottom:10px;
+    position:relative;
+    cursor:pointer;
+    border: 3px solid white;
+
+    /* page effect start */
+	-webkit-border-bottom-left-radius: 20px 500px;
+	-webkit-border-bottom-right-radius: 500px 30px;
+	-webkit-border-top-right-radius: 5px 100px;
+
+	-moz-border-radius-bottomleft: 20px 500px;
+	-moz-border-radius-bottomright: 500px 30px;
+	-moz-border-radius-topright: 5px 100px;
+
+	border-radius-bottomleft: 20px 500px;
+	border-radius-bottomright: 500px 30px;
+	border-radius-topright: 5px 100px;
+
+	-webkit-background-size: 100% 40px;
+
+	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
+	-moz-box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
+	box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);     
+
+    /* page effect end */
+
+    -moz-box-shadow: -7px 10px rgba(0,0,0,0.3);
+    -webkit-box-shadow: -7px 10px rgba(0,0,0,0.3);
+    box-shadow: -7px 10px rgba(0,0,0,0.3);
+}
+
+
+/* for rotation start */
+.rotateR{
+   -moz-transform:    rotate(3deg);
+   -o-transform:      rotate(3deg);
+   -webkit-transform: rotate(3deg);
+   transform:         rotate(3deg);
+
+/*
+ * The following two rules are for IE only and
+ * should be wrapped in conditional comments.
+ * The -ms-filter rule should be on one line 
+ * and always *before* the filter rule if
+ * used in the same rule.
+ */
+
+   /* IE8+ - must be on one line, unfortunately */ 
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9986295347545738, M12=-0.05233595624294437, M21=0.05233595624294437, M22=0.9986295347545738, SizingMethod='auto expand')";
+   
+   /* IE6 and 7 */ 
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=0.9986295347545738,
+            M12=-0.05233595624294437,
+            M21=0.05233595624294437,
+            M22=0.9986295347545738,
+            SizingMethod='auto expand');
+
+
+   /*
+    * To make the transform-origin be the middle of
+    * the object.    Note: These numbers
+    * are approximations.  For more accurate results,
+    * use Internet Explorer with this tool.
+    */
+   margin-left: -4px; 
+   margin-top: -8px;
+}
+
+.rotateL{
+   -moz-transform:    rotate(-3deg);
+   -o-transform:      rotate(-3deg);
+   -webkit-transform: rotate(-3deg);
+   transform:         rotate(-3deg);
+
+   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9986295347545738, M12=0.05233595624294388, M21=-0.05233595624294388, M22=0.9986295347545738, SizingMethod='auto expand')";
+   
+   filter: progid:DXImageTransform.Microsoft.Matrix(
+            M11=0.9986295347545738,
+            M12=0.05233595624294388,
+            M21=-0.05233595624294388,
+            M22=0.9986295347545738,
+            SizingMethod='auto expand');
+
+   margin-left: -4px; 
+   margin-top: -8px;
+}
+/* for rotation end */
+
+.note_common h2{
+    text-align:center;
+    margin-top:0;
+    padding-top:0;
+    font-family: cursive;
+}
+
+.note_common p{
+    font-size:0.9em;
+    overflow:auto;
+    overflow-x:hidden;
+    line-height:18px;
+    text-align:left;
+    font-family: 'Architects Daughter', cursive;
+}
+
+.inset{
+   -moz-box-shadow:inset 0 0 10px #cccccc;
+   -webkit-box-shadow:inset 0 0 10px #cccccc;
+   box-shadow:inset 0 0 10px #cccccc;
+   background:#f8f7f7;
+   color:#333;
+   padding:5px;
+   font-size:0.9em;
+   border:1px solid #e7e7e7;
+   font-family: 'Architects Daughter', cursive;
+}
+
+input:focus,textarea:focus,select:focus{border:1px solid #fafafa;-webkit-box-shadow:0 0 6px #000;-moz-box-shadow:0 0 5px #000;box-shadow:0 0 5px #000;}
+
+.tip{
+   background:url(../img/tip.png) no-repeat;
+   font-size:13px;
+   padding-left:25px;
+   padding-top:3px;
+   vertical-align:middle;
+}
+
+.icons-footer .ficon{
+   margin-left:10px;
+   position:absolute;
+   bottom:-15px;
+}
+
+/* for sticky note background oolors */
+
+.stickynote1 {
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.2, rgb(83,176,10)),
+        color-stop(0.6, rgb(117,212,36)),
+        color-stop(0.8, rgb(153,255,65))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(83,176,10) 20%,
+        rgb(117,212,36) 60%,
+        rgb(153,255,65) 80%
+    );
+}
+
+.stickynote2 {
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.12, rgb(2,75,126)),
+        color-stop(0.56, rgb(28,105,164)),
+        color-stop(0.78, rgb(56,137,197))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(2,75,126) 12%,
+        rgb(28,105,164) 56%,
+        rgb(56,137,197) 78%
+    );
+}
+
+.stickynote3 {
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.4, rgb(198,22,132)),
+        color-stop(0.7, rgb(238,49,159)),
+        color-stop(0.85, rgb(255,79,191))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(198,22,132) 40%,
+        rgb(238,49,159) 70%,
+        rgb(255,79,191) 85%
+    );
+}
+
+.stickynote4{
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.48, rgb(240,37,4)),
+        color-stop(0.74, rgb(255,63,30))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(240,37,4) 48%,
+        rgb(255,63,30) 74%
+    );
+}
+
+.stickynote5{
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.13, rgb(152,135,68)),
+        color-stop(0.57, rgb(183,162,96)),
+        color-stop(0.79, rgb(220,195,125))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(152,135,68) 13%,
+        rgb(183,162,96) 57%,
+        rgb(220,195,125) 79%
+    );
+}
+
+.stickynote6{
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.31, rgb(37,0,130)),
+        color-stop(0.66, rgb(63,27,156)),
+        color-stop(0.83, rgb(95,54,188))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(37,0,130) 31%,
+        rgb(63,27,156) 66%,
+        rgb(95,54,188) 83%
+    );
+}
+
+.stickynote7{
+    background-image: -webkit-gradient(
+        linear,
+        left bottom,
+        left top,
+        color-stop(0.31, rgb(105,134,244)),
+        color-stop(0.66, rgb(137,161,255)),
+        color-stop(0.83, rgb(165,194,255))
+    );
+    background-image: -moz-linear-gradient(
+        center bottom,
+        rgb(105,134,244) 31%,
+        rgb(137,161,255) 66%,
+        rgb(165,194,255) 83%
+    );
+}
+

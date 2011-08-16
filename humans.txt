@@ -1,0 +1,18 @@
+/* TEAM */
+
+	Lead Programmer / UI Developer / Web Designer:Sarfraz Ahmed
+	Contact: sarfraznawaz2005 [at] gmail.com
+	Twitter: @sarfraznawaz
+	From:Karachi, Pakistan
+
+/* THANKS */
+
+    Gridless - http://thatcoolguy.github.com/gridless-boilerplate/
+    
+    Architects Daughter (font) - http://www.google.com/webfonts/specimen/Architects+Daughter
+
+/* SITE */
+	Last update:2011/08/12
+	Language:English
+	Doctype:HTML5
+	IDE:Notepad++, Photoshop
