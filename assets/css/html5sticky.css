@@ -16,7 +16,7 @@ a img,a:visited img{border:none;}
 /* common styles end */
 
 
-body{background:url("../img/bg.png");color:#fff;padding:10px 30px 30px 30px;}
+body{background:url("../img/bg.png");color:#fff;padding:10px 30px 10px 30px;}
 
 #head h1{margin:0;padding:0;}
 #head nav{float:right;}
@@ -32,12 +32,17 @@ body{background:url("../img/bg.png");color:#fff;padding:10px 30px 30px 30px;}
 .clear{clear:both;}
 
 
+footer{
+   margin:auto;
+   width:300px;
+}
+
 .note_common, .bignote, .editinfo{
     padding:20px 10px 10px 10px;
     color:#000;
     float:left;
-    margin-right:20px;
-    margin-bottom:10px;
+    margin:20px;
+    margin-top:0;
     position:relative;
     cursor:pointer;
     border: 3px solid white;

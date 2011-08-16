@@ -4,7 +4,7 @@
    <meta charset="utf-8" />
    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-   <title>HTML5Sticky</title>
+   <title>HTML5Sticky - Sticky Notes for the Web !</title>
 
    <!-- Meta tags -->
    <meta name="description" content="HTML5 sticky notes application. Create sticky notes for the web !" />
@@ -46,6 +46,13 @@
 	<!-- First header has an ID so you can give it individual styles, and target stuff inside it -->
 	<header id="head">
 
+     <!-- Main nav, styled by targeting "#head nav"; you can have more than one nav element per page -->
+     <nav>
+         <ul>
+
+             <li><a href="http://twitter.com/#!/sarfraznawaz" target="_blank">Follow Me</a></li>
+         </ul>
+     </nav>
         
 		<!-- "hgroup" is used to make two headings into one, to prevent a new document node from forming -->
 		<hgroup>
@@ -63,6 +70,23 @@
        <a href="#" id="removenotes"><img src="assets/img/remove.png" alt="Remove all sticky notes" title="Remove all sticky notes"></a>
        <div class="clear">&nbsp;</div>
    </div>
+   <div class="clear">&nbsp;</div>
+
+   <footer>
+      <a href="http://twitter.com/share" class="twitter-share-button" data-text="#HTML5Sticky - #Sticky #Notes for the #Web ! An #HTML5 App" data-count="horizontal" data-via="sarfraznawaz">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+      <!-- Place this tag where you want the +1 button to render -->
+      <g:plusone size="medium" href="http://sarfraznawaz2005.kodingen.com/html5sticky/"></g:plusone>
+
+      <!-- Place this tag after the last plusone tag -->
+      <script type="text/javascript">
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>      
+   </footer>
 
 </body>
 </html>
