@@ -1,6 +1,6 @@
 /* TEAM */
 
-	Lead Programmer / UI Developer / Web Designer:Sarfraz Ahmed
+	Programmer / UI Developer / Web Designer:Sarfraz Ahmed
 	Contact: sarfraznawaz2005 [at] gmail.com
 	Twitter: @sarfraznawaz
 	From:Karachi, Pakistan
