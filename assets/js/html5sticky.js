@@ -1,10 +1,12 @@
 /*
-*   HTML5STICKY v1.0.0
-*   Author: Sarfraz Ahmed (sarfraznawaz2005@gmail.com)
-*   Twitter: @sarfraznawaz
-*   Blog: http://sarfraznawaz.wordpress.com/
-*
-* */
+   HTML5STICKY v1.0.0 (http://github.com/sarfraznawaz2005/HTML5Sticky)
+   ================================================================
+   Author   : Sarfraz Ahmed (sarfraznawaz2005@gmail.com)
+   Twitter  : @sarfraznawaz
+   Blog     : http://sarfraznawaz.wordpress.com/
+   LICENSE  : MIT
+   ================================================================
+*/
 
 var stickywidth = 250;  // width of sticky note (can't be less than 200)
 var stickyheight = 250; // height of sticky note (can't be less than 200)

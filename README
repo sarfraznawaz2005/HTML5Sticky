@@ -1,0 +1,66 @@
+HTML5STICKY v1.0.0 (http://github.com/sarfraznawaz2005/HTML5Sticky)
+================================================================
+Author   : Sarfraz Ahmed (sarfraznawaz2005@gmail.com)
+Twitter  : @sarfraznawaz
+Blog     : http://sarfraznawaz.wordpress.com/
+LICENSE  : MIT
+================================================================
+
+
+WHAT IS HTML5STICKY?
+================================================================
+
+   The HTML5STicky is as the name suggests, HTML application you can use to create
+sticky notes. The sticky notes are persistent in nature meaning your created sticky
+notes will be there the next time you open up the app. The app uses HTML5's localStorage
+feature in order to store the sticky notes.. In short, it is sticky notes for web !
+
+FEATURES
+================================================================
+
+ - Add text and lists with basic HTML tags
+ - Multiple colors
+ - Customize Width and Height
+ - Customize Allowable HTML tags
+ - Real sticky notes look
+ - Nice hand-writing-like font
+
+READMAP
+================================================================
+
+These are the features we will be adding:
+
+ - Shrink/expand notes
+ - Shrink/expand all notes
+ - Tweet note text
+ - Settings - font,color, etc
+ - Shuffle(may be)
+ - Priority (high, normal, low) based on z-index or color or both.
+ - Stylish tooltips
+ - Resizable and dragable
+ - Duplicatable
+ - Send by email
+ - Alarm
+ - Social share widget
+ - Replace alerts with stylish ones
+ - Custom scrollbars
+ - Set up default settings for newly created sticky notes
+ - Protect sticky notes from a casual delete using lock and unlock commands
+ - Print sticky notes
+ - Export/import sticky notes
+ - Hotkeys - reate a new sticky note, show/hide sticky notes, etc
+ - Save sticky notes in txt format (server-side/node.js)
+ - Save sticky notes as pictures (server-side/node.js)
+ - Use transparency feature(may be)
+ - Separate sticky notes by categories(may be)
+ - Change page background image.
+ - Trash option.
+
+
+FORK / PARTICIPATE IN THE PROJECT
+================================================================
+
+Do you want to participate in the development processs? You are welcome, go ahead:
+
+fork  : https://github.com/sarfraznawaz2005/HTML5Sticky/fork
+clone : git://github.com/sarfraznawaz2005/HTML5Sticky.git
