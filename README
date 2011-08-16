@@ -11,7 +11,7 @@ DEMO     : http://sarfraznawaz2005.kodingen.com/html5sticky/
 WHAT IS HTML5STICKY?
 ================================================================
 
-   The HTML5STicky is as the name suggests, HTML application you can use to create
+   The HTML5STicky is as the name suggests, HTML5 application you can use to create
 sticky notes. The sticky notes are persistent in nature meaning your created sticky
 notes will be there the next time you open up the app. The app uses HTML5's localStorage
 feature in order to store the sticky notes.. In short, it is sticky notes for web !
