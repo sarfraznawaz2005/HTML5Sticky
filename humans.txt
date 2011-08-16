@@ -11,6 +11,8 @@
     
     Architects Daughter (font) - http://www.google.com/webfonts/specimen/Architects+Daughter
 
+    IconFinder - www.iconfinder.com
+
 /* SITE */
 	Last update:2011/08/12
 	Language:English
