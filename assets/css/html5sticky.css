@@ -13,6 +13,7 @@ h1{font-size:2em;}
 h2{font-size:1em;}
 a,a:visited{color:#fff;outline:none !important;text-decoration:none;}
 a img,a:visited img{border:none;}
+textarea{overflow:auto;}
 /* common styles end */
 
 
