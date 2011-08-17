@@ -7,14 +7,15 @@
 
 /* THANKS */
 
-    Gridless - http://thatcoolguy.github.com/gridless-boilerplate/
-    
-    Architects Daughter (font) - http://www.google.com/webfonts/specimen/Architects+Daughter
-
-    IconFinder - www.iconfinder.com
+    jQuery - http://jquery.com/    
+    Gridless - http://thatcoolguy.github.com/gridless-boilerplate/    
+    respond.js - https://github.com/scottjehl/Respond
+    Modernizr - http://www.modernizr.com/
+    Architects Daughter (Google font directory) - http://www.google.com/webfonts/specimen/Architects+Daughter
+    IconFinder - http://www.iconfinder.com
 
 /* SITE */
-	Last update:2011/08/12
+	Last update:2011/08/17
 	Language:English
 	Doctype:HTML5
 	IDE:Notepad++, Photoshop
