@@ -363,7 +363,7 @@ html5sticky.shareNote = function(){
 // get random color
 html5sticky.getColor = function(){
     var text = "";
-    var possible = "1234567";
+    var possible = "0123456789";
 
     text += possible.charAt(Math.floor(Math.random() * possible.length));
     return 'stickynote' + text;

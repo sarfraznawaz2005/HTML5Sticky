@@ -60,8 +60,6 @@ footer{
 	border-radius-bottomright: 500px 30px;
 	border-radius-topright: 5px 100px;
 
-	-webkit-background-size: 100% 40px;
-
 	-webkit-box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
 	-moz-box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);
 	box-shadow: 0 2px 10px 1px rgba(0,0,0,.2);     
@@ -177,120 +175,112 @@ input:focus,textarea:focus,select:focus{border:1px solid #fafafa;-webkit-box-sha
 
 /* for sticky note background oolors */
 
+.stickynote0 {
+   background-color: #99FF41;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#99FF41), to(#53B00A)); 
+   background-image: -webkit-linear-gradient(top, #99FF41, #53B00A); 
+   background-image:    -moz-linear-gradient(top, #99FF41, #53B00A); 
+   background-image:     -ms-linear-gradient(top, #99FF41, #53B00A); 
+   background-image:      -o-linear-gradient(top, #99FF41, #53B00A); 
+   background-image:         linear-gradient(top, #99FF41, #53B00A);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#99FF41', EndColorStr='#53B00A');
+}
+
 .stickynote1 {
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.2, rgb(83,176,10)),
-        color-stop(0.6, rgb(117,212,36)),
-        color-stop(0.8, rgb(153,255,65))
-    );
-    background-image: -moz-linear-gradient(
-        center bottom,
-        rgb(83,176,10) 20%,
-        rgb(117,212,36) 60%,
-        rgb(153,255,65) 80%
-    );
+   background-color: #3889C5;
+   background-image: -webkit-gradient(linear, left top, left bottom, from(#3889C5), to(#024B7E)); 
+   background-image: -webkit-linear-gradient(top, #3889C5, #024B7E); 
+   background-image:    -moz-linear-gradient(top, #3889C5, #024B7E); 
+   background-image:     -ms-linear-gradient(top, #3889C5, #024B7E); 
+   background-image:      -o-linear-gradient(top, #3889C5, #024B7E); 
+   background-image:         linear-gradient(top, #3889C5, #024B7E);
+   filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#3889C5', EndColorStr='#024B7E');
 }
 
 .stickynote2 {
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.12, rgb(2,75,126)),
-        color-stop(0.56, rgb(28,105,164)),
-        color-stop(0.78, rgb(56,137,197))
-    );
-    background-image: -moz-linear-gradient(
-        center bottom,
-        rgb(2,75,126) 12%,
-        rgb(28,105,164) 56%,
-        rgb(56,137,197) 78%
-    );
+    background-color: #FF4FBF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF4FBF), to(#C61684)); 
+    background-image: -webkit-linear-gradient(top, #FF4FBF, #C61684); 
+    background-image:    -moz-linear-gradient(top, #FF4FBF, #C61684); 
+    background-image:     -ms-linear-gradient(top, #FF4FBF, #C61684); 
+    background-image:      -o-linear-gradient(top, #FF4FBF, #C61684); 
+    background-image:         linear-gradient(top, #FF4FBF, #C61684);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FF4FBF', EndColorStr='#C61684');
 }
 
-.stickynote3 {
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.4, rgb(198,22,132)),
-        color-stop(0.7, rgb(238,49,159)),
-        color-stop(0.85, rgb(255,79,191))
-    );
-    background-image: -moz-linear-gradient(
-        center bottom,
-        rgb(198,22,132) 40%,
-        rgb(238,49,159) 70%,
-        rgb(255,79,191) 85%
-    );
+.stickynote3{
+    background-color: #FF3F1E;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FF3F1E), to(#F02504)); 
+    background-image: -webkit-linear-gradient(top, #FF3F1E, #F02504); 
+    background-image:    -moz-linear-gradient(top, #FF3F1E, #F02504); 
+    background-image:     -ms-linear-gradient(top, #FF3F1E, #F02504); 
+    background-image:      -o-linear-gradient(top, #FF3F1E, #F02504); 
+    background-image:         linear-gradient(top, #FF3F1E, #F02504);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FF3F1E', EndColorStr='#F02504');
 }
 
 .stickynote4{
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.48, rgb(240,37,4)),
-        color-stop(0.74, rgb(255,63,30))
-    );
-    background-image: -moz-linear-gradient(
-        center bottom,
-        rgb(240,37,4) 48%,
-        rgb(255,63,30) 74%
-    );
+    background-color: #DCC37D;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#DCC37D), to(#988744)); 
+    background-image: -webkit-linear-gradient(top, #DCC37D, #988744); 
+    background-image:    -moz-linear-gradient(top, #DCC37D, #988744); 
+    background-image:     -ms-linear-gradient(top, #DCC37D, #988744); 
+    background-image:      -o-linear-gradient(top, #DCC37D, #988744); 
+    background-image:         linear-gradient(top, #DCC37D, #988744);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#DCC37D', EndColorStr='#988744');
 }
 
 .stickynote5{
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.13, rgb(152,135,68)),
-        color-stop(0.57, rgb(183,162,96)),
-        color-stop(0.79, rgb(220,195,125))
-    );
-    background-image: -moz-linear-gradient(
-        center bottom,
-        rgb(152,135,68) 13%,
-        rgb(183,162,96) 57%,
-        rgb(220,195,125) 79%
-    );
+    background-color: #5F36BC;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#5F36BC), to(#250082)); 
+    background-image: -webkit-linear-gradient(top, #5F36BC, #250082); 
+    background-image:    -moz-linear-gradient(top, #5F36BC, #250082); 
+    background-image:     -ms-linear-gradient(top, #5F36BC, #250082); 
+    background-image:      -o-linear-gradient(top, #5F36BC, #250082); 
+    background-image:         linear-gradient(top, #5F36BC, #250082);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#5F36BC', EndColorStr='#250082');
 }
 
 .stickynote6{
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.31, rgb(37,0,130)),
-        color-stop(0.66, rgb(63,27,156)),
-        color-stop(0.83, rgb(95,54,188))
-    );
-    background-image: -moz-linear-gradient(
-        center bottom,
-        rgb(37,0,130) 31%,
-        rgb(63,27,156) 66%,
-        rgb(95,54,188) 83%
-    );
+    background-color: #A5C2FF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#A5C2FF), to(#6986F4)); 
+    background-image: -webkit-linear-gradient(top, #A5C2FF, #6986F4); 
+    background-image:    -moz-linear-gradient(top, #A5C2FF, #6986F4); 
+    background-image:     -ms-linear-gradient(top, #A5C2FF, #6986F4); 
+    background-image:      -o-linear-gradient(top, #A5C2FF, #6986F4); 
+    background-image:         linear-gradient(top, #A5C2FF, #6986F4);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#A5C2FF', EndColorStr='#6986F4');
 }
 
 .stickynote7{
-    background-image: -webkit-gradient(
-        linear,
-        left bottom,
-        left top,
-        color-stop(0.31, rgb(105,134,244)),
-        color-stop(0.66, rgb(137,161,255)),
-        color-stop(0.83, rgb(165,194,255))
-    );
-    background-image: -moz-linear-gradient(
-        center bottom,
-        rgb(105,134,244) 31%,
-        rgb(137,161,255) 66%,
-        rgb(165,194,255) 83%
-    );
+    background-color: #FEBFBF;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FEBFBF), to(#FE8080)); 
+    background-image: -webkit-linear-gradient(top, #FEBFBF, #FE8080); 
+    background-image:    -moz-linear-gradient(top, #FEBFBF, #FE8080); 
+    background-image:     -ms-linear-gradient(top, #FEBFBF, #FE8080); 
+    background-image:      -o-linear-gradient(top, #FEBFBF, #FE8080); 
+    background-image:         linear-gradient(top, #FEBFBF, #FE8080);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FEBFBF', EndColorStr='#FE8080');
 }
 
+.stickynote8{
+    background-color: #FEBF80;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FEBF80), to(#FF8000)); 
+    background-image: -webkit-linear-gradient(top, #FEBF80, #FF8000); 
+    background-image:    -moz-linear-gradient(top, #FEBF80, #FF8000); 
+    background-image:     -ms-linear-gradient(top, #FEBF80, #FF8000); 
+    background-image:      -o-linear-gradient(top, #FEBF80, #FF8000); 
+    background-image:         linear-gradient(top, #FEBF80, #FF8000);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FEBF80', EndColorStr='#FF8000');
+}
+
+.stickynote9{
+    background-color: #FEF280;
+    background-image: -webkit-gradient(linear, left top, left bottom, from(#FEF280), to(#FFE500)); 
+    background-image: -webkit-linear-gradient(top, #FEF280, #FFE500); 
+    background-image:    -moz-linear-gradient(top, #FEF280, #FFE500); 
+    background-image:     -ms-linear-gradient(top, #FEF280, #FFE500); 
+    background-image:      -o-linear-gradient(top, #FEF280, #FFE500); 
+    background-image:         linear-gradient(top, #FEF280, #FFE500);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorStr='#FEF280', EndColorStr='#FFE500');
+}
