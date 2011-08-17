@@ -8,8 +8,8 @@
    ================================================================
 */
 
-var stickywidth = 250;  // width of sticky note (can't be less than 200)
-var stickyheight = 250; // height of sticky note (can't be less than 200)
+var stickywidth = 200;  // width of sticky note (can't be less than 200)
+var stickyheight = 200; // height of sticky note (can't be less than 200)
 var max_notes = 500; // maximum number of notes one can store
 var allowed_tags = '<br /><br><ol></ol><ul></ul><li></li><strong></strong><i></i>';
 
