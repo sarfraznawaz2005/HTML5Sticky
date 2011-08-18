@@ -16,6 +16,7 @@ sticky notes. The sticky notes are persistent in nature meaning your created sti
 notes will be there the next time you open up the app. The app uses HTML5's localStorage
 feature in order to store the sticky notes.. In short, it is sticky notes for web !
 
+
 FEATURES
 ================================================================
 
@@ -25,6 +26,12 @@ FEATURES
  - Customize Allowable HTML tags
  - Real sticky notes look
  - Nice hand-writing-like font
+
+
+BROWSER SUPPORT
+================================================================
+Chrome, Firefox 3.5+, Safari 4+, Opera 10+, Internet Explorer 8+
+
 
 READMAP
 ================================================================
