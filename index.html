@@ -22,12 +22,12 @@
       margin: 0 auto;
       width: 700px;
     }
-    h1 { font-size: 2em; color: #2b1e0d; margin-bottom: 3px; }
+    h1 { font-size: 2em; color: #D62C67; margin-bottom: 3px; }
     h1 .small { font-size: 0.4em; }
     h1 a { text-decoration: none }
-    h2 { font-size: 1.5em; color: #2b1e0d; }
-    h3 { text-align: center; color: #2b1e0d; }
-    a { color: #2b1e0d; }
+    h2 { font-size: 1.5em; color: #D62C67; }
+    h3 { text-align: center; color: #D62C67; }
+    a { color: #D62C67; }
     .description { font-size: 1.2em; margin-bottom: 30px; margin-top: 30px; font-style: italic;}
     .download { float: right; }
     pre { background: #000; color: #fff; padding: 15px;}
@@ -40,7 +40,7 @@
    a { 
        font-weight:bold; 
        text-decoration: none; 
-       color: #6EAD1A; 
+       color: #D62C67; 
    }
 
    a:focus {
@@ -56,52 +56,34 @@
    a:focus, 
    a:active { 
        text-decoration: underline; 
-       color: #569107; 
+       color: #D62C67; 
    }
 
    strong {
        font-weight: bold;
    }
 
-   .button {
-       display: inline-block; 
-       padding: 6px 15px; 
-       border: 1px solid #487310;
-       margin: 20px 0 0; 
-       font-size: 1.375em;
-       line-height: 1.273;
-       color: #fff; 
-       background: #6EAD1A; 
-       text-shadow:0 1px 1px rgba(0,0,0,0.4); 
-       -moz-border-radius: 5px; 
-            border-radius: 5px;
-       -webkit-box-shadow: 0 1px 3px rgba(0,0,0,0.4), 
-                           inset 0 1px rgba(255,255,255,0.5), 
-                           inset 0 12px rgba(255,255,255,0.2), 
-                           inset 0 10px 20px rgba(255,255,255,0.25), 
-                           inset 0 -12px 25px rgba(0,0,0,0.3);
-          -moz-box-shadow: 0 1px 3px rgba(0,0,0,0.4), 
-                           inset 0 1px rgba(255,255,255,0.5), 
-                           inset 0 12px rgba(255,255,255,0.2), 
-                           inset 0 10px 20px rgba(255,255,255,0.25), 
-                           inset 0 -12px 25px rgba(0,0,0,0.3);
-               box-shadow: 0 1px 3px rgba(0,0,0,0.4), 
-                           inset 0 1px rgba(255,255,255,0.5), 
-                           inset 0 12px rgba(255,255,255,0.2), 
-                           inset 0 10px 10px rgba(255,255,255,0.25), 
-                           inset 0 -12px 25px rgba(0,0,0,0.3);
-       -webkit-transition: all 0.15s;
-          -moz-transition: all 0.15s;
-            -o-transition: all 0.15s;
-               transition: all 0.15s;
+   .button{
+      -moz-border-radius:3px;
+      -webkit-border-radius:3px;
+      border-radius:3px;
+      -moz-box-shadow:0 2px 0 #b7245a;
+      -webkit-box-shadow:0 2px 0 #b7245a;
+      box-shadow:0 2px 0 #b7245a;
+      background: -moz-linear-gradient(0% 50% 90deg,#E22E6D, #EB3373, #EB3373 15%);
+      background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#EB3373), to(#E22E6D), color-stop(.9,#EB3373));
+      color:#fff;
+      float:left;
+      font-family:arial,helvetica,sans-serif;
+      font-size:17px;
+      font-weight:bold;
+      padding:7px 20px;
+      text-shadow:1px 1px 1px rgba(0, 0, 0, 0.5);
    }
 
-   .button:hover,
-   .button:focus,
-   .button:active {
-       text-decoration: none; 
-       color: #fff; 
-       background: #569107;
+   .button:hover{
+      background: -moz-linear-gradient(0% 50% 90deg,#D62C67, #DE306D, #EB3373 15%);
+      background: -webkit-gradient(linear, 0% 0%, 0% 56%, from(#DE306D), to(#D62C67), color-stop(.9,#EB3373));
    }
   </style>
 </head>
@@ -134,17 +116,13 @@ feature in order to store the sticky notes.. In short, it is sticky notes for we
    </div>
 
    <h2>Browser Support</h2>
-   <p>Chrome, Firefox 3+, Safari 4+, Opera 10+, Internet Explorer 8+</p>
+   <p>Chrome, Firefox 3.5+, Safari 4+, Opera 10+, Internet Explorer 8+</p>
 
    <h2>License</h2>
    <p>MIT</p>
 
    <h2>Author</h2>
       <p>Sarfraz Ahmed (sarfraznawaz2005@gmail.com)   </p>
-
-   <h2>Contact</h2>
-      <p>Sarfraz Ahmed (sarfraznawaz2005@gmail.com)   </p>
-
 
     <h2>Download</h2>
     <p>
@@ -157,6 +135,22 @@ feature in order to store the sticky notes.. In short, it is sticky notes for we
       by running:
       <pre>$ git clone git://github.com/sarfraznawaz2005/HTML5Sticky</pre>
     </p>
+
+   <div class="footer">
+      <a href="http://twitter.com/share" class="twitter-share-button" data-text="#HTML5Sticky - #Sticky #Notes for the #Web ! An #HTML5 App" data-count="horizontal" data-via="sarfraznawaz">Tweet</a><script type="text/javascript" src="http://platform.twitter.com/widgets.js"></script>
+
+      <!-- Place this tag where you want the +1 button to render -->
+      <g:plusone size="medium" href="http://sarfraznawaz2005.kodingen.com/html5sticky/"></g:plusone>
+
+      <!-- Place this tag after the last plusone tag -->
+      <script type="text/javascript">
+        (function() {
+          var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+          po.src = 'https://apis.google.com/js/plusone.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+        })();
+      </script>      
+   </div>
 
   </div>
 
