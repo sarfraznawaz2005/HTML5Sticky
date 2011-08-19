@@ -11,7 +11,7 @@ DEMO     : http://sarfraznawaz2005.kodingen.com/html5sticky/
 WHAT IS HTML5STICKY?
 ================================================================
 
-   The HTML5STicky is as the name suggests, HTML5 application you can use to create
+   The HTML5Sticky is as the name suggests, HTML5 application you can use to create
 sticky notes. The sticky notes are persistent in nature meaning your created sticky
 notes will be there the next time you open up the app. The app uses HTML5's localStorage
 feature in order to store the sticky notes.. In short, it is sticky notes for web !
@@ -31,39 +31,6 @@ FEATURES
 BROWSER SUPPORT
 ================================================================
 Chrome, Firefox 3.5+, Safari 4+, Opera 10+, Internet Explorer 8+
-
-
-READMAP
-================================================================
-
-These are the features we will be adding:
-
- - Shrink/expand notes
- - Shrink/expand all notes
- - Tweet note text
- - Settings - font,color, etc
- - Shuffle(may be)
- - Priority (high, normal, low) based on z-index or color or both.
- - Stylish tooltips
- - Resizable and dragable
- - Duplicatable
- - Send by email
- - Alarm
- - Search/filter functionality
- - Social share widget
- - Replace alerts with stylish ones
- - Custom scrollbars
- - Set up default settings for newly created sticky notes
- - Protect sticky notes from a casual delete using lock and unlock commands
- - Print sticky notes
- - Export/import sticky notes
- - Hotkeys - reate a new sticky note, show/hide sticky notes, etc
- - Save sticky notes in txt format (server-side/node.js)
- - Save sticky notes as pictures (server-side/node.js)
- - Use transparency feature(may be)
- - Separate sticky notes by categories(may be)
- - Change page background image.
- - Trash option.
 
 
 FORK / PARTICIPATE IN THE PROJECT
