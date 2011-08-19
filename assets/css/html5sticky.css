@@ -1,5 +1,5 @@
 /*
-   HTML5STICKY v1.0.0 (http://github.com/sarfraznawaz2005/HTML5Sticky)
+   HTML5STICKY (http://github.com/sarfraznawaz2005/HTML5Sticky)
    ================================================================
    Author   : Sarfraz Ahmed (sarfraznawaz2005@gmail.com)
    Twitter  : @sarfraznawaz
@@ -75,58 +75,29 @@ footer{
 
 /* for rotation start */
 .rotateR{
-   -moz-transform:    rotate(3deg);
-   -o-transform:      rotate(3deg);
-   -webkit-transform: rotate(3deg);
-   transform:         rotate(3deg);
 
-/*
- * The following two rules are for IE only and
- * should be wrapped in conditional comments.
- * The -ms-filter rule should be on one line 
- * and always *before* the filter rule if
- * used in the same rule.
- */
+     -moz-transform: rotate(3deg);  
+       -o-transform: rotate(3deg);  
+  -webkit-transform: rotate(3deg);  
+      -ms-transform: rotate(3deg);  
+          transform: rotate(3deg);  
+             filter: progid:DXImageTransform.Microsoft.Matrix( 
+                     M11=0.9986295347545738, M12=-0.05233595624294383, M21=0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
+               zoom: 1;
 
-   /* IE8+ - must be on one line, unfortunately */ 
-   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9986295347545738, M12=-0.05233595624294437, M21=0.05233595624294437, M22=0.9986295347545738, SizingMethod='auto expand')";
-   
-   /* IE6 and 7 */ 
-   filter: progid:DXImageTransform.Microsoft.Matrix(
-            M11=0.9986295347545738,
-            M12=-0.05233595624294437,
-            M21=0.05233595624294437,
-            M22=0.9986295347545738,
-            SizingMethod='auto expand');
-
-
-   /*
-    * To make the transform-origin be the middle of
-    * the object.    Note: These numbers
-    * are approximations.  For more accurate results,
-    * use Internet Explorer with this tool.
-    */
-   margin-left: -4px; 
-   margin-top: -8px;
 }
 
 .rotateL{
-   -moz-transform:    rotate(-3deg);
-   -o-transform:      rotate(-3deg);
-   -webkit-transform: rotate(-3deg);
-   transform:         rotate(-3deg);
 
-   -ms-filter: "progid:DXImageTransform.Microsoft.Matrix(M11=0.9986295347545738, M12=0.05233595624294388, M21=-0.05233595624294388, M22=0.9986295347545738, SizingMethod='auto expand')";
-   
-   filter: progid:DXImageTransform.Microsoft.Matrix(
-            M11=0.9986295347545738,
-            M12=0.05233595624294388,
-            M21=-0.05233595624294388,
-            M22=0.9986295347545738,
-            SizingMethod='auto expand');
+     -moz-transform: rotate(-3deg);  
+       -o-transform: rotate(-3deg);  
+  -webkit-transform: rotate(-3deg);  
+      -ms-transform: rotate(-3deg);  
+          transform: rotate(-3deg);  
+             filter: progid:DXImageTransform.Microsoft.Matrix( 
+                     M11=0.9986295347545738, M12=0.05233595624294383, M21=-0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
+               zoom: 1;
 
-   margin-left: -4px; 
-   margin-top: -8px;
 }
 /* for rotation end */
 
