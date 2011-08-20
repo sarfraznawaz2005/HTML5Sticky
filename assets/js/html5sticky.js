@@ -23,7 +23,7 @@ html5sticky.addNote = function(){
     var tnotes = $('.note_common').length;
 
     if (tnotes === max_notes){
-       alert('You can not add any more notes, please delete some to add more.');
+       html5sticky.showMessage('#FFE16B', 'black', 'You can not add any more notes, please delete some to add more.');
        return false;
     }
 
@@ -80,7 +80,7 @@ html5sticky.addNote = function(){
 
 // no html5 ?
 html5sticky.nohtml5 = function(){
-   alert('Your browser does not support html5, please upgrade your browser.');
+   html5sticky.showMessage('#FFE16B', 'black', 'Your browser does not support html5, please upgrade your browser.');
 };
 
 
@@ -120,7 +120,7 @@ html5sticky.saveNote = function(el){
       $('[id^=idf_' + identifier + ']').closest('.note_common').find('h2').text(htext);
       $('[id^=idf_' + identifier + ']').closest('.note_common').find('p').html(ptext);
 
-      alert('Sticky Note Saved :)');
+      html5sticky.showMessage('#9BED87', 'black', 'Sticky Note Saved :)');
 
    }
    else {
@@ -355,6 +355,43 @@ html5sticky.emailNote = function(){
 // share note
 html5sticky.shareNote = function(){
 
+};
+
+// share note
+html5sticky.showMessage = function(bgcolor, color, msg){
+    if (!$('#smsg').is(':visible'))
+    {
+            $('html, body').animate({
+             scrollTop: 0
+            }, 500, function(){
+                if (!$('#smsg').length)
+                {
+                    $('<div id="smsg">'+msg+'</div>').appendTo($('body')).css({
+                        position:'absolute',
+                        top:0,
+                        left:3,
+                        width:'98%',
+                        height:'30px',
+                        lineHeight:'30px',
+                        background:bgcolor,
+                        color:color,
+                        zIndex:1000,
+                        padding:'10px',
+                        fontWeight:'bold',
+                        textAlign:'center',
+                        opacity:0.9,
+                        margin:'auto',
+                        display:'none'
+                    }).slideDown('show');
+
+                    setTimeout(function(){
+                        $('#smsg').animate({'width':'hide'}, function(){
+                            $('#smsg').remove();
+                        });
+                    }, 4000);
+                }
+            });
+    }
 };
 
 // get random color
