@@ -23,10 +23,10 @@ body{background:url("../img/bg.png");color:#fff;padding:10px 30px 10px 30px;}
 #head nav{float:right;}
 #head nav li{display:inline;}
 
-#addnote{display:block;margin:20px;width:auto;float:left}
-#removenotes{display:block;margin:20px;width:auto;float:left}
+#addnote{display:block;margin:10px;width:auto;float:left}
+#removenotes{display:block;margin:10px;width:auto;float:left}
 
-#main{margin:auto;padding-bottom:50px;}
+#main{margin-left:10%;margin-right:10%;width:100%;padding-bottom:50px;}
 
 .left{float:left;}
 .right{float:right;}
@@ -43,7 +43,7 @@ footer{
     color:#000;
     float:left;
     margin:20px;
-    margin-top:0;
+    margin-top:10px;
     position:relative;
     cursor:pointer;
     border: 3px solid white;
