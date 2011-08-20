@@ -35,9 +35,8 @@ html5sticky.addNote = function(){
    
     // get random color
     var bgcolor = html5sticky.getColor();
-    var rotationClass = html5sticky.getRotation();
 
-    var stickynote = $('<div class="note_common ' + bgcolor + ' ' + rotationClass + '" />').appendTo($('#main'));
+    var stickynote = $('<div class="note_common ' + bgcolor + '" />').appendTo($('#main'));
     // add tape to stickynote
     html5sticky.addPin(stickynote);
 
@@ -71,7 +70,7 @@ html5sticky.addNote = function(){
        localStorage.setItem(nindex, nindex);
        localStorage.setItem(nindex + '|pos', parseInt($(stickynote).offset().left, 10) + '|' + parseInt($(stickynote).offset().top, 10));
        localStorage.setItem(nindex + '|text', $(stickynote).find('h2').text() + '|' + $(stickynote).find('p').text());
-       localStorage.setItem(nindex + '|settings', bgcolor + '|' + rotationClass);
+       localStorage.setItem(nindex + '|bgcolor', bgcolor);
        localStorage.setItem(nindex + '|dated', dated + '|' + html5sticky.getISODateTime(dateStr));
     }
     else {
@@ -297,12 +296,10 @@ html5sticky.getNotes = function(){
             //console.log(i + 'stickynote');
 
             note_index = i;
-            var stickynote, bgcolor, rotationClass, htext, ptext, pleft, ptop, temp_array;
+            var stickynote, bgcolor, htext, ptext, pleft, ptop, temp_array;
 
             // get color and rotation level
-            temp_array = localStorage.getItem(i + 'stickynote' + '|settings').split('|');
-            bgcolor = temp_array[0];
-            rotationClass = temp_array[1];
+            bgcolor = localStorage.getItem(i + 'stickynote' + '|bgcolor');
 
             // get position info
             temp_array = localStorage.getItem(i + 'stickynote' + '|pos').split('|');
@@ -314,7 +311,7 @@ html5sticky.getNotes = function(){
             htext = temp_array[0];
             ptext = temp_array[1];
 
-            stickynote = $('<div class="note_common ' + bgcolor + ' ' + rotationClass + '" />').appendTo($('#main'));
+            stickynote = $('<div class="note_common ' + bgcolor + '" />').appendTo($('#main'));
             // add tape to stickynote
             html5sticky.addPin(stickynote);
 
@@ -367,20 +364,6 @@ html5sticky.getColor = function(){
 
     text += possible.charAt(Math.floor(Math.random() * possible.length));
     return 'stickynote' + text;
-};
-
-// get transform position
-html5sticky.getRotation = function(){
-   var words = new Array();
-
-   words[1] = "rotateL";
-   words[2] = "rotateR";
-   words[3] = ""; // for no rotation
-
-   // Generate a random number between 1 and 3
-   var rnd = Math.ceil(Math.random() * 3);
-
-   return words[rnd];
 };
 
 

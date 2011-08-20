@@ -72,35 +72,6 @@ footer{
     box-shadow: -7px 10px rgba(0,0,0,0.3);
 }
 
-
-/* for rotation start */
-.rotateR{
-
-     -moz-transform: rotate(3deg);  
-       -o-transform: rotate(3deg);  
-  -webkit-transform: rotate(3deg);  
-      -ms-transform: rotate(3deg);  
-          transform: rotate(3deg);  
-             filter: progid:DXImageTransform.Microsoft.Matrix( 
-                     M11=0.9986295347545738, M12=-0.05233595624294383, M21=0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
-               zoom: 1;
-
-}
-
-.rotateL{
-
-     -moz-transform: rotate(-3deg);  
-       -o-transform: rotate(-3deg);  
-  -webkit-transform: rotate(-3deg);  
-      -ms-transform: rotate(-3deg);  
-          transform: rotate(-3deg);  
-             filter: progid:DXImageTransform.Microsoft.Matrix( 
-                     M11=0.9986295347545738, M12=0.05233595624294383, M21=-0.05233595624294383, M22=0.9986295347545738, sizingMethod='auto expand');
-               zoom: 1;
-
-}
-/* for rotation end */
-
 .note_common h2{
     text-align:center;
     margin-top:0;
