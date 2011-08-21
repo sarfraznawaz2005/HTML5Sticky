@@ -46,29 +46,23 @@
 	<!-- First header has an ID so you can give it individual styles, and target stuff inside it -->
 	<header id="head">
 
-     <!-- Main nav, styled by targeting "#head nav"; you can have more than one nav element per page -->
-     <nav>
-         <ul>
+      <a href="index.html">
+         <h1>HTML5Sticky <br /><small>sticky notes for web !</small></h1>
+      </a>
 
-             <li><a href="http://twitter.com/#!/sarfraznawaz" target="_blank">Follow Me</a></li>
-         </ul>
-     </nav>
-        
-		<!-- "hgroup" is used to make two headings into one, to prevent a new document node from forming -->
-		<hgroup>
-            <a href="index.html">
-               <h1>HTML5Sticky</h1>
-               <h5>Sticky Notes for the Web !</h5>
-            </a>
-		</hgroup>
+      <div class="left topsection">
+         <a href="#" id="addnote" class="tooltip blue-tooltip"><img src="assets/img/add.png" alt="Add a new sticky note"><span>Add a new sticky note</span></a>
+         <a href="#" id="removenotes" class="tooltip blue-tooltip"><img src="assets/img/remove.png" alt="Remove all sticky notes"><span>Remove all sticky notes</span></a>
+      </div>
 
+      <div class="left topsection">
+         <a href="#" id="shrink" class="tooltip blue-tooltip"><img src="assets/img/decrease.png" alt="Shrink"><span>Shrink sticky notes</span></a>
+         <a href="#" id="expand" class="tooltip blue-tooltip"><img src="assets/img/increase.png" alt="Expand"><span>Expand sticky notes</span></a>
+      </div>
+
+      <a id="twitter" class="tooltip blue-tooltip" href="http://twitter.com/#!/sarfraznawaz" target="_blank"><img src="assets/img/twitter.png" alt="Follow Me"><span>Follow me on Twitter</span></a>
 
 	</header><!-- #head -->
-
-   <section>
-       <a href="#" id="addnote"><img src="assets/img/add.png" alt="Add Sticky Note" title="Add a new sticky note"></a>
-       <a href="#" id="removenotes"><img src="assets/img/remove.png" alt="Remove all sticky notes" title="Remove all sticky notes"></a>
-   </section>
 
    <div id="main"></div>
 
