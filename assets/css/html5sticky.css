@@ -51,7 +51,7 @@ h1{float:left; margin-right:30px; line-height:20px;color:#f6f6f6;text-shadow: 1p
    margin-bottom:100px;
 }
 
-#twitter{float:right;margin-top:7px;}
+#twitter, #donate{float:right;margin-top:7px;margin-left:5px;}
 
 #head p{
    clear:both;
