@@ -360,6 +360,7 @@ html5sticky.shareNote = function(){
 // shrink notes
 html5sticky.shrink = function(){
    var height = 0 + parseInt($('.note_common:first').find('h2').height(), 10) + 'px';
+
    $('.note_common').animate({height:height}, function(){
       $('.note_common').find('p').hide();
    });
