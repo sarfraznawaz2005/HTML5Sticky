@@ -357,6 +357,22 @@ html5sticky.shareNote = function(){
 
 };
 
+// shrink notes
+html5sticky.shrink = function(){
+   var height = 0 + parseInt($('.note_common:first').find('h2').height(), 10) + 'px';
+   $('.note_common').animate({height:height}, function(){
+      $('.note_common').find('p').hide();
+   });
+};
+
+// expand notes
+html5sticky.expand = function(){
+   $('.note_common').animate({height:stickyheight}, function(){
+      $('.note_common').find('p').fadeIn('slow');
+   });
+};
+
+
 // share note
 html5sticky.showMessage = function(bgcolor, color, msg){
     if (!$('#smsg').is(':visible'))
@@ -596,6 +612,16 @@ $(function(){
    // enlarge the note
    $(".note_common").live("click", function(event) {
       html5sticky.enlargeNote($(this));
+   });
+
+   // shrink the notes
+   $('#shrink').click(function(event) {
+      html5sticky.shrink();
+   });
+
+   // expand the notes
+   $('#expand').click(function(event) {
+      html5sticky.expand();
    });
 
 
